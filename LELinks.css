@@ -61,15 +61,12 @@ body {
 }
 
 .main {
-	float:left;
-	width: 670px;
-	margin-top: 20px;
-	margin-left:30px;
-	height:706px;
-	background-image: url("Assets/blog_box.png");
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size:100%;
+	align-content: center;
+}
+
+.main h1 {
+	font-size: 36px;
+	font-style: bold;
 }
 
 
