@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+	<head>
+	
+		<title> Lauging Eagle Productions </title>
+		<link rel="stylesheet" href="LEHome.css" type="text/css" media="Screen, projection">
+
+	</head>
+	<body>
+		<div id="topBar">
+		</div>
+		<div id="topnav">
+			<nav>
+				<ul>
+					<li><a href="LaughingEagleHome.htm">home</a></li>
+					<li><a href="LaughingEagleServices.htm">services</a></li>
+					<li><a href="LaughingEagleGear.htm">gear</a></li>
+					<li><a href="LaughingEagleMedia.htm">media</a></li>
+					<li><a href="LaughingEagleContact.htm">about</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="content">
+			<div class="main" role="main">
+				<div id="article">
+					<div id="post">
+						<font face="Tahoma" color="#151B8D" size="1px">
+							
+						<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FLaughing-Eagle-Productions-LLC%2F165770930152881%3Fref%3Dts&amp;width=550&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=false&amp;height=556" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:550px; height:556px;" allowTransparency="true"></iframe>
+						
+					</div>
+						
+				</div>
+			</div><!-- // Main -->
+			<div id="newsFeed">
+				<div id="fbFrame">
+					<font face="Tahoma" color="#151B8D" size="3px"><b>Bigger</b></font>
+					<br>
+					<font face="Tahoma" color="#58595B" size="2px">by Karl Morgan
+					<br><br>
+					<a href="http://vimeo.com/26123217"><img src="Assets/morgan.png" width="240px" height="140px"></img></a>
+					<br><br>
+					Recorded live @ the <a class="NoUnderline" href="http://www.one2onebar.com/">One 2 One Bar</a>
+					<br>
+					during SXSW 2011</font>
+				</div>
+			</div>
+			<div id="weeklyLocal">
+				<div id="wlFrame">
+					<p>
+						<a href="http://www.patronism.com/"><img src="Assets/ulrich.png" width="230" height="150"></img></a><br><br>
+						<font size="4px" face="Tahoma"><a class="NoUnderline" href="http://www.patronism.com/">Ulrich Ellison</a></font><br>
+						<font size="2px" color="black" face="Tahoma">Come check out Ulrich's new project, <a class="NoUnderline" href="http://www.patronism.com/">Patronism</a> and show your support!</font>
+					</p>
+				</div>
+			</div>
+		</div><!-- // End Content -->
+		<div id="bottomlinks">
+			<nav>
+				<ul>
+					<li><a href="http://www.gignaustin.com/index.php?option=com_content&view=frontpage&Itemid=1">Gig'n'Austin</a></li>
+					<li><a href="http://www.one2onebar.com/">121 Bar</a></li>
+					<li><a href="http://www.momosclub.com/">Momo's</a></li>
+					<li><a href="http://dirtydogbar.com/">Dirty Dog</a></li>
+					<li><a href="http://www.myspace.com/bigcircletx">Big Circle TX</a></li>
+					<li><a href="http://ulrichellison.com/">Ulrich Ellison</a></li>
+					<li><a href="http://www.alexhenley.com/">Alex Henley</a></li>
+					<li><a href="http://www.patricepike.com/">Patrice Pike</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="footer">
+			<div id="scplayer">
+				<center>
+					<a href="http://www.facebook.com/pages/Laughing-Eagle-Productions-LLC/165770930152881"><img src="Assets/facebook.png" height=32px width=32px></img></a>
+					<a href="http://soundcloud.com/leaglepro"><img src="Assets/soundcloud.png" height=32px width=32px></img></a>
+					<a href="http://leaglepro.tumblr.com/"><img src="Assets/tumblr.png" height=32px width=32px></img></a>
+					<a href="http://twitter.com/leaglepro"><img src="Assets/twitter.png" height=32px width=32px></img></a>
+					<a href="http://vimeo.com/user7332119/videos"><img src="Assets/vimeo.png" height=32px width=32px></img></a><br><br>
+					<span id="siteseal"><script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=iYqzQzK0W0FeFM54SRiDXv0mPoFtPZrIPC6cznlpUQMwyDuimdhVtcvfhYhF"></script><br/><a style="font-family: arial; font-size: 9px" href="http://www.godaddy.com/reseller/domain-reseller.aspx" target="_blank"></a></span>
+				</center>
+			</div>
+	
+		</div>
+	</body>
+</html>

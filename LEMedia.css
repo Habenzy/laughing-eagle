@@ -1,0 +1,237 @@
+@import "css/reset.css"; /*--- Stylesheet Reset ---*/
+
+body {
+	width: 1024px;
+	font-family:Tahoma;
+	margin:0 auto;
+	background: url("Assets/background.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color:#000;
+}
+
+/************* MAIN CONTENT ***************/
+#topBar{
+	background:url("Assets/top_banner.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color:#222;
+	background-size:100%;
+	height:209px;
+}
+
+#topnav{
+	background: url("Assets/nav_bar.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	height:43px;
+	margin-top:-17px;
+}
+
+#topnav nav{
+	font-family:Tahoma;
+}
+
+
+#topnav nav  ul {
+	list-style:none;
+	padding-left:322px;
+}
+
+#topnav nav ul li {
+	float:left;	
+	height:43px;
+}
+
+#topnav nav ul li a {
+	display:block;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	color:#CCC;
+	margin-top:0x;
+	padding-top:10px;
+	margin-top:1px;
+	height:43px;
+	width:71px;
+}
+
+#topnav nav ul li a:hover {
+	background: url("Assets/nav_button_overlay.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	color:#006;
+	text-decoration:none;
+}
+
+#topnav nav ul li.selected a {
+	color: #888;
+}
+
+#content {
+	float:left;
+	width:1024px;
+	height:700px;
+	margin-top:50px;
+	padding-bottom:10px;
+	padding-left:20px;
+
+}
+
+.main {
+	float:left;
+	
+	width: 748px;
+	background-image: url("Assets/current_media.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	height:676px;
+}
+
+
+#article {
+	display:block;
+	
+	color:#999;
+	padding-left:25px;
+	padding-bottom:30px;
+	margin-left:10px;
+	height:400px;
+}
+
+p {
+	padding-right:20px;
+}
+
+#post {
+	height:520px;
+	width:690px;
+	padding-left:25px;
+	margin-top:100px;
+	overflow-y: auto;
+	overflow-x: auto;
+	overflow:auto;
+}
+
+#videoLinks{
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+	background-image: url("Assets/white_scrollbox.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	width:234px;
+	height:344px;
+}
+
+#videoScroll{
+	margin-left:20px;
+	margin-top:20px;
+	width:155px;
+	height:280px;
+	
+	overflow-y: auto;
+	overflow-x: auto;
+	overflow:auto;
+}
+
+#audioLinks{
+	float:left;
+	margin-left:20px;
+	margin-top:-25px;
+	background-image: url("Assets/white_scrollbox.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	width:234px;
+	height:344px;
+}
+
+#audioScroll{
+	margin-left:20px;
+	margin-top:20px;
+	width:155px;
+	height:280px;
+	overflow-y: auto;
+	overflow-x: auto;
+	overflow:auto;
+
+}
+
+#bottomlinks {
+	height:82px;
+	width:1024px;
+	background-image: url("Assets/link_bar.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	float:left;
+}
+
+#bottomlinks nav{
+	font-family:Tahoma;
+}
+
+#bottomlinks nav  ul {
+	list-style:none;
+	padding-left:10px;
+}
+
+#bottomlinks nav ul li {
+	float:left;
+	padding-top:25px;
+	height:43px;
+	width:125px;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	color:#006;
+	text-decoration:none;
+}
+
+#bottomlinks nav ul li a {
+	display:block;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	margin-top:-6px;
+	padding-top:10px;
+	color:#CCC;
+	height:43px;
+}
+
+#bottomlinks nav ul li a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+#bottomlinks nav ul li.selected a {
+	color: #888;
+}
+
+#footer {
+	height:175px;
+	width:1024px;
+	margin-top:-4px;
+	background-image: url("Assets/bottom_banner.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	float:left;
+	vertical-align:middle;
+	
+}
+
+#scplayer{
+	margin-top:70px;
+}
+
+#Player {
+	padding-top:30px;
+}

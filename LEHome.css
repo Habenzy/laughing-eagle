@@ -1,0 +1,233 @@
+@import "css/reset.css"; /*--- Stylesheet Reset ---*/
+
+body {
+	
+	width: 1024px;
+	margin:0 auto;
+	background: url("Assets/background.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color:#000;
+}
+
+/************* MAIN CONTENT ***************/
+
+#topBar {
+	background:url("Assets/top_banner.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	height:209px;
+	margin-bottom:-17px;
+	padding-bottom:0px;
+}
+
+#topnav {
+	background: url("Assets/nav_bar.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	height:50px;
+	margin-top:-17px;
+}
+
+
+#topnav nav{
+	font-family:Tahoma;
+}
+
+
+#topnav nav  ul {
+	list-style:none;
+	padding-left:322px;
+}
+
+#topnav nav ul li {
+	float:left;
+	
+	height:50px;
+}
+
+#topnav nav ul li a {
+	display:block;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	color:#CCC;
+	height:50px;
+	width:71px;
+	margin-top:10px;
+}
+
+#topnav nav ul li a:hover {
+	background: url("Assets/nav_button_overlay.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+	color:#006;
+	text-decoration:none;
+	padding-top:10px;
+	margin-top:1px;
+}
+
+#topnav nav ul li.selected a {
+	color: #888;
+}
+
+#content {
+	float:left;
+	width:1024px;
+	height:706px;
+}
+
+.main {
+	float:left;
+	width: 670px;
+	margin-top: 20px;
+	margin-left:30px;
+	height:706px;
+	background-image: url("Assets/blog_box.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size:100%;
+}
+
+
+article {
+	float:left;
+	font-size:24px;
+	font-family:Tahoma;
+	color:#999;
+	padding-top:30px;
+	width:670x;
+	
+	
+}
+
+#newsFeed{
+	float:left;
+	background-image: url("Assets/featured.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size:100%;
+	width:334px;
+	height:364px;
+	margin-top:25px;
+	margin-left:-25px;
+}
+
+#weeklyLocal{
+	float:left;
+	background-image: url("Assets/feature_box.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size:100%;
+	width:346px;
+	height:370px;
+	margin-left:-25px;
+	margin-top:-15px;
+}
+
+#fbFrame{
+	float:left;
+	margin-top:65px;
+	margin-left:40px;
+	width:254px;
+	height:175px;
+}
+
+#wlFrame{
+	float:left;
+	padding-left:40px;
+	padding-top:50px;
+	width:300;
+	height:350;
+}
+
+ol{
+list-style-type:none;
+width: 550px;
+}
+
+p{
+	float:left;
+	font-family:Tahoma;
+	height:auto;
+	width:230px;
+	margin-left:5px;
+}
+
+.NoUnderline{
+	text-decoration:none;
+}
+
+#post {
+	height:575px;
+	width:625px;
+	margin-left:50px;
+	float:left;
+	margin-top:87px;
+	overflow-y: auto;
+	overflow-x: auto;
+	text-overflow:clip;
+}
+
+#bottomlinks {
+	height:82px;
+	width:1024px;
+	background-image: url("Assets/link_bar.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	float:left;
+}
+
+#bottomlinks nav{
+	font-family:Tahoma;
+}
+
+#bottomlinks nav  ul {
+	list-style:none;
+	padding-left:10px;
+}
+
+#bottomlinks nav ul li {
+	float:left;
+	padding-top:25px;
+	height:50px;
+	width:125px;
+}
+
+#bottomlinks nav ul li a {
+	display:block;
+	font-size:14px;
+	text-align:center;
+	text-decoration:none;
+	padding-top:10px;
+	color:#CCC;
+	height:50px;
+	
+}
+
+#bottomlinks nav ul li a:hover {
+	background-size:100%;
+	color:#000;
+	text-decoration:none;
+}
+
+#bottomlinks nav ul li.selected a {
+	color: #888;
+}
+
+#footer {
+	height:175px;
+	width:1024px;
+	background-image: url("Assets/bottom_banner.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	float:left;
+	margin-top:-5px;
+}
+
+#scplayer {
+	padding-top:70px;
+}

@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^6765633010/(.*)$ beading-departments.php [QSA,L]
+
+rewriteengine on
+rewritecond %{HTTP_HOST} ^www.leaglepro.com$ [OR]
+rewritecond %{HTTP_HOST} ^leaglepro.com$
+rewriterule ^$ "http\:\/\/leaglepro\.com\/LaughingEagleHome\.htm" [R=301,L] #4df985f0e4171
