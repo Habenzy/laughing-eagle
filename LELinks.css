@@ -75,49 +75,8 @@ body {
 	font-style: bold;
 }
 
-
-article {
-	float:left;
-	font-size:24px;
-	font-family:Tahoma;
-	color:#999;
-	padding-top:30px;
-	width:670x;
-	
-	
-}
-
-#fbFrame{
-	float:left;
-	margin-top:65px;
-	margin-left:40px;
-	width:254px;
-	height:175px;
-}
-
-#wlFrame{
-	float:left;
-	padding-left:40px;
-	padding-top:50px;
-	width:300;
-	height:350;
-}
-
-ol{
-list-style-type:none;
-width: 550px;
-}
-
-p{
-	float:left;
-	font-family:Tahoma;
-	height:auto;
-	width:230px;
-	margin-left:5px;
-}
-
-.NoUnderline{
-	text-decoration:none;
+ul {
+	list-style: none;
 }
 
 #footer {
