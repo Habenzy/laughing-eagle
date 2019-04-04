@@ -25,14 +25,14 @@ body {
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
-	height:60px
+	height:30px
 }
 
 .nav-button{
 	font-family: Tahoma;
 	font-size:14px;
 	color:#CCC;
-	height:60px;
+	height:30px;
 	border-left: #999 1px solid;
 	border-right: #999 1px solid;
 	text-align:center;
