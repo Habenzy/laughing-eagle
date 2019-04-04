@@ -1,18 +1,8 @@
 @import "css/reset.css"; /*--- Stylesheet Reset ---*/
 
-@font-face {
-	font-family: FuturaBook;
-	src: url( "Assets/Futura-Book.otf");
-}
-
-@font-face {
-	font-family: FuturaCondensed;
-	src: url( "Assets/Futura-CondensedLight.otf");
-}
-
 body {
+	
 	width: 1024px;
-	font-family:Tahoma;
 	margin:0 auto;
 	background: url("Assets/background.png");
 	background-repeat: no-repeat;
@@ -22,22 +12,25 @@ body {
 
 /************* MAIN CONTENT ***************/
 
-#topBar{
+#topBar {
 	background:url("Assets/top_banner.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size:100%;
 	height:209px;
+	margin-bottom:-17px;
+	padding-bottom:0px;
 }
 
-#topnav{
+#topnav {
 	background: url("Assets/nav_bar.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size:100%;
-	height:43px;
+	height:50px;
 	margin-top:-17px;
 }
+
 
 #topnav nav{
 	font-family:Tahoma;
@@ -51,7 +44,8 @@ body {
 
 #topnav nav ul li {
 	float:left;
-	height:43px;
+	
+	height:50px;
 }
 
 #topnav nav ul li a {
@@ -60,10 +54,9 @@ body {
 	text-align:center;
 	text-decoration:none;
 	color:#CCC;
-	margin-top:1px;
-	padding-top:10px;
-	height:43px;
+	height:50px;
 	width:71px;
+	margin-top:10px;
 }
 
 #topnav nav ul li a:hover {
@@ -73,6 +66,8 @@ body {
 	background-size:100%;
 	color:#006;
 	text-decoration:none;
+	padding-top:10px;
+	margin-top:1px;
 }
 
 #topnav nav ul li.selected a {
@@ -81,54 +76,65 @@ body {
 
 #content {
 	float:left;
-	margin-top:40px;
-	width:850px;
-	height:500px;
-	padding-bottom:205px;
-	margin-left:50px;
-	padding-left:100px;
-
+	width:1024px;
+	height:706px;
 }
 
 .main {
-	padding-top:0px;
-	width: 900px;
+	float:left;
+	width: 670px;
 	margin-top: 20px;
-	margin-left:-80px;
-	background-image: url("Assets/services.png");
+	margin-left:30px;
+	height:706px;
+	background-image: url("Assets/blog_box.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size:100%;
-	height:800px;
 }
 
 
 article {
-
-	padding-left:30px;
+	float:left;
+	font-size:24px;
+	font-family:Tahoma;
+	color:#999;
 	padding-top:30px;
-	padding-bottom:30px;
-	padding-right:0px;
-	width:560px;
+	width:670x;
+	
+	
 }
 
-.topImg{
-	margin-left:-20px;
-	margin-top:-30px;
+#fbFrame{
+	float:left;
+	margin-top:65px;
+	margin-left:40px;
+	width:254px;
+	height:175px;
 }
 
-p {
-	height:550px;
-	padding-right:20px;
-	overflow-y: auto;
-	overflow-x: auto;
-	text-overflow:clip;
-	margin-right: -225px;
+#wlFrame{
+	float:left;
+	padding-left:40px;
+	padding-top:50px;
+	width:300;
+	height:350;
 }
 
-.post {
-	height:550px;
-	width: 600px;
+ol{
+list-style-type:none;
+width: 550px;
+}
+
+p{
+	float:left;
+	font-family:Tahoma;
+	height:auto;
+	width:230px;
+	margin-left:5px;
+}
+
+.NoUnderline{
+	text-decoration:none;
 }
 
 #footer {
@@ -138,15 +144,9 @@ p {
 	background-repeat: no-repeat;
 	background-position: top center;
 	float:left;
-	vertical-align:middle;
-	margin-top:-4px;
-	
+	margin-top:-5px;
 }
 
-#scplayer{
-	margin-top:70px;
-}
-
-#Player {
-	padding-top:30px;
+#scplayer {
+	padding-top:70px;
 }

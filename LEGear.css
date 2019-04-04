@@ -153,51 +153,6 @@ p {
 	text-overflow:clip;
 }
 
-#bottomlinks {
-	height:82px;
-	width:1024px;
-	background-image: url("Assets/link_bar.png");
-	background-repeat: no-repeat;
-	background-position: top center;
-	float:left;
-}
-
-#bottomlinks nav{
-	font-family:Tahoma;
-}
-
-#bottomlinks nav  ul {
-	list-style:none;
-	padding-left:10px;
-}
-
-#bottomlinks nav ul li {
-	float:left;
-	padding-top:20px;
-	height:50px;
-	width:125px;
-}
-
-#bottomlinks nav ul li a {
-	display:block;
-	font-size:14px;
-	text-align:center;
-	text-decoration:none;
-	color:#CCC;
-	padding-top:10px;
-	margin-top:-1px;
-	height:50px;
-}
-
-#bottomlinks nav ul li a:hover {
-	color:#000;
-	text-decoration:none;
-}
-
-#bottomlinks nav ul li.selected a {
-	color: #888;
-}
-
 #footer {
 	height:175px;
 	width:1024px;

@@ -162,31 +162,6 @@ p {
 
 }
 
-#bottomlinks {
-	height:82px;
-	width:1024px;
-	background-image: url("Assets/link_bar.png");
-	background-repeat: no-repeat;
-	background-position: top center;
-	float:left;
-}
-
-#bottomlinks nav{
-	font-family:Tahoma;
-}
-
-#bottomlinks nav  ul {
-	list-style:none;
-	padding-left:10px;
-}
-
-#bottomlinks nav ul li {
-	float:left;
-	padding-top:25px;
-	height:43px;
-	width:125px;
-}
-
 a{
 	text-decoration:none;
 }
@@ -194,26 +169,6 @@ a{
 a:hover{
 	color:#006;
 	text-decoration:none;
-}
-
-#bottomlinks nav ul li a {
-	display:block;
-	font-size:14px;
-	text-align:center;
-	text-decoration:none;
-	margin-top:-6px;
-	padding-top:10px;
-	color:#CCC;
-	height:43px;
-}
-
-#bottomlinks nav ul li a:hover {
-	color:#000;
-	text-decoration:none;
-}
-
-#bottomlinks nav ul li.selected a {
-	color: #888;
 }
 
 #footer {
