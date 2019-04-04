@@ -31,42 +31,28 @@ body {
 }
 
 #topnav{
-	background: url("Assets/nav_bar.png");
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size:100%;
-	height:43px;
-	margin-top:-17px;
+	background-image:linear-gradient(#262626, #737373, #000000);
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	height:28px
 }
 
-#topnav nav{
-	font-family:Tahoma;
-}
-
-
-#topnav nav  ul {
-	list-style:none;
-	padding-left:322px;
-}
-
-#topnav nav ul li {
-	float:left;
-	height:43px;
-}
-
-#topnav nav ul li a {
-	display:block;
+.nav-button{
+	font-family: Tahoma;
 	font-size:14px;
+	color:#CCC;
+	height:28px;
+	border-left: #999 1px solid;
+	border-right: #999 1px solid;
 	text-align:center;
 	text-decoration:none;
-	color:#CCC;
-	margin-top:1px;
-	padding-top:10px;
-	height:43px;
-	width:71px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top:3px;
 }
 
-#topnav nav ul li a:hover {
+.nav-button:hover {
 	background: url("Assets/nav_button_overlay.png");
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -75,9 +61,6 @@ body {
 	text-decoration:none;
 }
 
-#topnav nav ul li.selected a {
-	color: #888;
-}
 
 #content {
 	float:left;
