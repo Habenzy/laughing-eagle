@@ -58,6 +58,7 @@ body {
 	width:1024px;
 	height:706px;
 	align-content: center;
+	justify-content: center
 }
 
 .main {
@@ -66,7 +67,6 @@ body {
 	flex-direction: column;
 	background-color: white;
 	width: 980px;
-	min-height: 980px
 }
 
 p{
