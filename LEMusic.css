@@ -57,78 +57,23 @@ body {
 #content {
 	width:1024px;
 	height:706px;
+	align-content: center;
 }
 
 .main {
-align-content: center;
-}
-
-#newsFeed{
-	float:left;
-	background-image: url("Assets/featured.png");
-	background-repeat: no-repeat;
-	background-position: top left;
-	background-size:100%;
-	width:334px;
-	height:364px;
-	margin-top:25px;
-	margin-left:-25px;
-}
-
-#weeklyLocal{
-	float:left;
-	background-image: url("Assets/feature_box.png");
-	background-repeat: no-repeat;
-	background-position: top left;
-	background-size:100%;
-	width:346px;
-	height:370px;
-	margin-left:-25px;
-	margin-top:-15px;
-}
-
-#fbFrame{
-	float:left;
-	margin-top:65px;
-	margin-left:40px;
-	width:254px;
-	height:175px;
-}
-
-#wlFrame{
-	float:left;
-	padding-left:40px;
-	padding-top:50px;
-	width:300;
-	height:350;
-}
-
-ol{
-list-style-type:none;
-width: 550px;
+	align-content: center;
+	display:flex;
+	flex-flow: column space-between;
+	background-color: white;
+	width: 980px;
 }
 
 p{
-	float:left;
 	font-family:Tahoma;
-	height:auto;
-	width:230px;
-	margin-left:5px;
 }
 
 .NoUnderline{
 	text-decoration:none;
-}
-
-#post {
-	height:575px;
-	width:625px;
-	margin-left:50px;
-	float:left;
-	margin-top:87px;
-	overflow-y: auto;
-	overflow-x: auto;
-	text-overflow:clip;
 }
 
 #footer {
