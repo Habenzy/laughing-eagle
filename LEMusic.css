@@ -68,6 +68,7 @@ body {
 	background-color: white;
 	width: 980px;
 	margin: 10px 22px 10px 22px;
+	border-radius: 5px;
 }
 
 p{
