@@ -55,9 +55,9 @@ body {
 
 
 #content {
-	float:left;
 	width:1024px;
 	height:706px;
+	align-content: center;
 }
 
 .main {
