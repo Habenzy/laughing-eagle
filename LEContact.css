@@ -21,7 +21,7 @@ body {
 }
 
 #topnav{
-	background-color: #000;
+	background-image:linear-gradient(#404040, #cccccc, #262626);
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
